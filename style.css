@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+form {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+form > .rca {
+  display: flex;
+  justify-content: space-between;
+}
+form > .wac {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 420px;
+
+  padding: 7px;
+}
+select {
+  width: 440px;
+  padding: 7px;
+}
+textarea {
+  width: 899px;
+  height: 237px;
+  height: 237px;
+}
+div {
+  height: 50%;
+  margin-top: 10px;
+  margin-right: 5%;
+}
+input,
+select,
+textarea {
+  margin-top: 8px;
+  border-radius: 0;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+}
+.cinq > button {
+  border-right: 3em;
+  margin-right: -10px;
+  display: flex;
+  margin-left: 98%;
+  margin-top: 15%;
+  padding: 13px 25px;
+  background-color: rgb(255, 26, 114);
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+textarea,
+select,
+input:focus {
+  outline-color: rgb(57, 215, 112);
+}
